@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	background-image: url('Cn1.jpg');
+	background-position: center;	
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+#container {
+
+	position: fixed;
+	width: 0px;
+	height: 0px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px;
+	margin-left:80px;
+	margin-top: 20px;
+	background-color: rgba(180,180,180,.0);
+	overflow: hidden;
+}
+
+#sec1 {
+	width: 528px;
+	height: 228px;
+	background-color: rgba(90,90,90,.6);
+	margin-top: 1px;
+	margin-left: 1px;
+	position: absolute;
+	border-radius: 10px;
+	overflow: hidden;
+	color: white;
+	padding: 30px;
+}
+#sec2 {
+	width: 528px;
+	height: 228px;
+	background-color: rgba(240,240,240,.7);
+	margin-top: 10px;
+	margin-left: 600px;
+	position: absolute;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 30px;
+}
+#sec3 {
+	width: 528px;
+	height: 228px;
+	background-color: rgba(240,240,240,.7);
+	margin-top: 300px;
+	margin-left: 10px;
+	position: absolute;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 30px;
+}
+#sec4 {
+	width: 528px;
+	height: 228px;
+	background-color: rgba(20,20,20,.6);
+	margin-top: 310px;
+	margin-left: 610px;
+	position: absolute;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 30px;
+	color: white;
+}
+
+#imgContainer {
+
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: 1s;
+	position: fixed;
+	margin-left: 560px;
+	margin-top: 200px;
+}
+
+#imgContainer img{
+
+   cursor: pointer;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	margin-top: 0px;
+	margin-left: 0px;
+	transition: 1s;
+}
+
+#imgContainer img:hover {
+
+	box-shadow: 2px 2px 5px white;
+	transition: 1s;
+}
+
+#back {
+
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	
+	border: 2px double gray;
+	background-color: rgba(240,240,240,.4);
+	border-radius: 50%;
+	color: black;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#back:hover {
+
+	border: 2px double white;
+	background-color: gray;
+	color: white;
+	cursor: pointer;
+}
+
+#back a {
+
+	width: 20px;
+	font-size: 20px;
+	position: absolute;
+	margin-left: 7px;
+	margin-top: 4px;
+	cursor: pointer;
+	border-radius: 50%;
+	text-decoration: none;
+	
+}
+
+#back a:hover {
+
+	color: white;
+	
+}
+

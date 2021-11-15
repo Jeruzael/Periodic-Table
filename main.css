@@ -1,0 +1,5587 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	background-image: url('galaxy.png');
+}
+
+#Container {
+	position: fixed;
+	background-color: rgba(230,230,230,.3);
+	box-shadow: 2px 2px 5px gray;
+	width: 95%;
+	height: 600px;
+	margin-left: 35px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+#legend img {
+
+	width: 400px;
+	height: 100px;
+	position: fixed;
+	border-radius: 10px;
+	margin-left: 310px; 
+	margin-top: 80px;
+	opacity: .3;
+	border: 2px groove white;
+}
+
+
+#space td{
+
+	border: none;
+	height: 10px;
+}
+
+table {
+
+	position: fixed;
+	margin-top: 20px;
+	margin-left: 85px;
+}
+
+td {
+	border: 1px groove rgba(250,250,250,2);
+	width: 58px;
+	height: 58px;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#null {
+
+	border: none;
+}
+
+#h a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: gray;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#h sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#h p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#h a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#c a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: gray;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#c sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#c p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#c a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+#he a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #0e76bd;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#he sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#he p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#he a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#li a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f6812c;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#li sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#li p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#li a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#na a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f6812c;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#na sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#na p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#na a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#k a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f6812c;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#k sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#k p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#k a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#rb a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f6812c;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#rb sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#rb p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#rb a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#cs a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f6812c;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cs sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cs p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cs a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#fr a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f6812c;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#fr sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#fr p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#fr a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#be a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #cc181e;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#be sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#be p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#be a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#mg a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #cc181e;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#mg sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#mg p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#mg a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ca a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #cc181e;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ca sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ca p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ca a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#sr a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #cc181e;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#sr sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#sr p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#sr a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ba a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #cc181e;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ba sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ba p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ba a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ra a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #cc181e;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ra sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ra p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ra a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#sc a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#sc sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#sc p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#sc a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#y a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#y sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#y p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 9px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#y a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ti a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ti sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ti p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ti a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#zr a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#zr sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#zr p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#zr a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#hf a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#hf sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#hf p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#hf a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#rf a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#rf sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#rf p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#rf a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#v a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#v sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#v p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#v a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#nb a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#nb sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#nb p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#nb a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ta a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ta sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ta p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 6px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ta a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#db a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#db sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#db p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#db a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#cr a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cr sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cr p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cr a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#mo a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#mo sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#mo p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#mo a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#w a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#w sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#w p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#w a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#sg a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#sg sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#sg p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#sg a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#mn a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#mn sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#mn p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#mn a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#tc a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#tc sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#tc p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#tc a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#re a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#re sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#re p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#re a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#bh a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#bh sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#bh p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#bh a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#fe a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#fe sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#fe p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 16px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#fe a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ru a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ru sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ru p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ru a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#os a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#os sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#os p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#os a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#hs a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#hs sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#hs p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#hs a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#co a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#co sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#co p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 14px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#co a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#rh a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#rh sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#rh p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#rh a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ir a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ir sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ir p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 11px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ir a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#mt a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#mt sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#mt p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 0px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#mt a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ni a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ni sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ni p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 13px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ni a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#pd a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#pd sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#pd p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#pd a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#pt a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#pt sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#pt p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#pt a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ds a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ds sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ds p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ds a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#cu a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cu sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cu p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 12px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cu a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ag a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ag sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ag p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 12px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ag a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#au a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#au sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#au p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 15px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#au a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#rg a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#rg sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#rg p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#rg a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#zn a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#zn sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#zn p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 15px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#zn a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#cd a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cd sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cd p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cd a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+
+#hg a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#hg sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#hg p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#hg a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#cn a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #623f99;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cn sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cn p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cn a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+
+#b a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #46a748;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#b sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#b p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 12px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#b a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#al a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#al sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#al p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#al a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ga a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ga sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ga p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ga a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#in a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#in sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#in p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#in a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#tl a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#tl sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#tl p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#tl a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#nh a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#nh sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#nh p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#nh a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#si a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #46a748;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#si sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#si p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#si a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ge a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #46a748;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ge sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ge p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ge a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#as a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #46a748;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#as sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#as p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#as a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+
+#sn a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#sn sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#sn p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 17px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#sn a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#pb a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#pb sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#pb p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 15px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#pb a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#fl a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#fl sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#fl p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#fl a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#bi a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#bi sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#bi p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#bi a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#mc a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#mc sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#mc p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#mc a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#lv a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #066839;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#lv sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 5px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#lv p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#lv a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#sb a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #46a748;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#sb sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#sb p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#sb a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#te a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #46a748;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#te sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#te p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#te a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#po a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #46a748;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#po sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#po p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#po a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#n a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #818286;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#n sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#n p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 6px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#n a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#o a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #818286;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#o sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#o p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 9px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#o a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#p a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #818286;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#p sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#p p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#p a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#s a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #818286;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#s sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#s p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 12px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#s a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#se a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #818286;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#se sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#se p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#se a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+
+#f a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #03adef;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#f sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#f p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#f a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#cl a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #03adef;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cl sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cl p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cl a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#br a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #03adef;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#br sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#br p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#br a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#i a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #03adef;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#i sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#i p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 12px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#i a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#at a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #03adef;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#at sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#at p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#at a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ts a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #03adef;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ts sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ts p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ts a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ne a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #0e76bd;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ne sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ne p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 14px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ne a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ar a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #0e76bd;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ar sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ar p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 14px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ar a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#kr a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #0e76bd;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#kr sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#kr p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#kr a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#xe a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #0e76bd;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#xe sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#xe p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 14px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#xe a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#rn a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #0e76bd;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#rn sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#rn p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 14px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#rn a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#og a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #0e76bd;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#og sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#og p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#og a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#La a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#La sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#La p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#La a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ce a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ce sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ce p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ce a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#pr a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#pr sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#pr p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#pr a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#nd a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#nd sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#nd p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#nd a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#pm a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#pm sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#pm p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#pm a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#sm a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#sm sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#sm p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#sm a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#eu a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#eu sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#eu p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#eu a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#gd a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#gd sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#gd p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#gd a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#tb a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#tb sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#tb p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#tb a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#dy a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#dy sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#dy p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 0px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#dy a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ho a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ho sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ho p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 4px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ho a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#er a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#er sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#er p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#er a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#tm a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#tm sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#tm p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#tm a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#yb a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#yb sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#yb p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#yb a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#Lu a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#Lu sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#Lu p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#Lu a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+
+#La a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #a73f98;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#La sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#La p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#La a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#ac a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#ac sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#ac p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#ac a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#th a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#th sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#th p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#th a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#pa a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#pa sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#pa p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#pa a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#u a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#u sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#u p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 7px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#u a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+
+#np a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#np sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#np p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#np a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#pu a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#pu sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#pu p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#pu a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#am a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#am sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#am p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 2px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#am a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#cm a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cm sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cm p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 9px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cm a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#bk a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#bk sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#bk p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#bk a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+
+#cf a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#cf sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#cf p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#cf a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#es a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#es sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#es p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#es a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#fm a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#fm sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#fm p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#fm a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#md a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#md sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#md p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#md a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#bk a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#bk sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#bk p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 3px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#bk a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#no a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#no sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#no p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#no a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
+
+#lr a{
+
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #f14e23;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	transition: 1s;
+	z-index: 0;
+	left: 0px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -30px;
+	margin-left: 0px;
+}
+
+#lr sup{
+	position: absolute;
+	color: white;
+	margin-top: -25px;
+	margin-left: 2px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#lr p {
+
+	position: absolute;
+	color: white;
+	font-size: 10px;
+	margin-left: -1px;
+	cursor: pointer;
+	margin-top:2px;
+}
+
+#lr a:hover {
+
+	background-color: black;
+	transition: 1s;
+
+}
+/*-------------------------------------------------------------------*/
